@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <fieldset>
+      <legend>Login area</legend>
+      <form action="">
+        <div>
+          <label for="username">Username</label>
+          <input id="username" type="text" required />
+          <br />
+
+          <label>
+            Password
+            <input type="password" required />
+          </label>
+          <br />
+
+          <label>
+            Email
+            <input type="email" required />
+          </label>
+        </div>
+
+        <div>
+          <label>
+            Male
+            <input type="radio" name="gender" />
+          </label>
+          <label>
+            Female
+            <input type="radio" name="gender" />
+          </label>
+        </div>
+
+        <div>
+          <label>
+            Month
+            <select name="" id="">
+              <option value="jan">Січень</option>
+              <option value="feb">Лютий</option>
+              <option value="mar">Березень</option>
+            </select>
+          </label>
+        </div>
+        <button type="reset">Reset</button>
+        <hr />
+        <button type="submit">Submit</button>
+      </form>
+    </fieldset>
+
+    <fieldset>
+      <legend>What do you want???</legend>
+      <form action="">
+        <div>
+          <p>What do you choose?</p>
+          <div>
+            <label for="Mackbook">Mackbook</label>
+            <input type="checkbox" name="Mackbook" id="Mackbook" />
+            <label for="Dell">Dell</label>
+            <input type="checkbox" name="Dell" id="Dell" />
+            <label for="Asus">Asus</label>
+            <input type="checkbox" name="Asus" id="Asus" />
+          </div>
+        </div>
+        <label for="color">Choose color</label>
+        <input type="color" name="" id="color" />
+
+        <div>
+          <label for="date">Date of delivery</label>
+          <input type="datetime-local" name="" id=date">
+        </div>
+        <button type="reset">Reset</button>
+        <hr />
+        <button type="submit">Submit</button>
+      </form>
+    </fieldset>
+  </body>
+</html>
